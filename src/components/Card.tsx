@@ -1,7 +1,7 @@
 import React from "react"
 
 interface CardsProps {
-  img: string,
+  img?: string,
   children: React.ReactNode,
 }
 export const Card: React.FC<CardsProps> = ({ img, children }) => {
